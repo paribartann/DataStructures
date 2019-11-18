@@ -23,7 +23,7 @@ int main() {
 }
 
 
-
+//this has the worst case time complexity of O(n^2)
 template<typename dataType>
 int LCSRecursion(dataType X, dataType Y, int m, int n) {
 
@@ -39,7 +39,7 @@ int LCSRecursion(dataType X, dataType Y, int m, int n) {
 }
 
 
-
+//this has the worst case time complexity of O(mn)
 template<typename dataType>
 void LCSMemoizationAndPrint(dataType X, dataType Y, int m, int n) {
 
